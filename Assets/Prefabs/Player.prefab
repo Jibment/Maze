@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2500347220245624172, guid: de6dc5a1519de2b488caa8939b895a28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -101,6 +101,10 @@ MonoBehaviour:
   actions: 
   currentPos: {x: 0, y: 0}
   nextPos: {x: 0, y: 0}
+  startflg: 0
+  TextTutorial: {fileID: 0}
+  TextGoal: {fileID: 0}
+  TextActions: {fileID: 0}
 --- !u!50 &36642531710434827
 Rigidbody2D:
   serializedVersion: 4
